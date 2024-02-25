@@ -39,7 +39,13 @@
             margin: auto;
             border-radius: 30px;
             background-color: white;
-            box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.35);
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            transition: width 2s;
+        }
+
+        .container:hover {
+            width: 60%;
+            box-shadow: rgba(33, 110, 141, 0.75) 0px 5px 15px;
         }
 
         .main h1 {
@@ -100,13 +106,18 @@
         .Copy_right a {
             color: blue;
         }
+
+        .footer {
+            text-align: center;
+            margin-top: 300px;
+        }
     </style>
 </head>
 
 <body>
     <div class="main">
         <div class="logo">
-            <a href=""><img src="./logo.png" alt="Logo_shop"></a>
+            <img src="./logo.png" alt="Logo_shop">
         </div>
         <div class="container">
             <h1>Công ty Hoa tươi Nhân Ái</h1>
@@ -132,7 +143,7 @@
                                     Điện thoại: <span class="tel">84-08-8351056</span>
                                 </li>
                                 <li>
-                                    Địa chỉ: &emsp;<span class="location">227 Nguyễn Văn Cừ, Quận 5, TP.HCM</span>
+                                    Địa chỉ: &emsp; <span class="location">227 Nguyễn Văn Cừ, Quận 5, TP.HCM</span>
                                 </li>
                             </ul>
                         </li>
